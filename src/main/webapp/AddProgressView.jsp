@@ -7,6 +7,8 @@
 <title>Add Progress</title>
 </head>
 <body>
-
+	<form action="index" method="get">
+		<input type="submit" value="Back to home">
+	</form>
 </body>
 </html>

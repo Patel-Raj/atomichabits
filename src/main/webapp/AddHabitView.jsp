@@ -4,9 +4,11 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Track Progress</title>
+<title>Add Habit</title>
 </head>
 <body>
-
+	<form action="index" method="get">
+		<input type="submit" value="Back to home">
+	</form>
 </body>
 </html>
