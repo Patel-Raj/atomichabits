@@ -1,4 +1,4 @@
-package com.atomichabits.model;
+package com.atomichabits.pojo;
 
 import java.sql.Date;
 

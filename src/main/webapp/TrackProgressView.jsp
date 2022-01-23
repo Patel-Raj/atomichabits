@@ -7,6 +7,8 @@
 <title>Track Progress</title>
 </head>
 <body>
+	<h2>Your Progress!!</h2>
+	
 	<form action="index" method="get">
 		<input type="submit" value="Back to home">
 	</form>
