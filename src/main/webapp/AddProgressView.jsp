@@ -28,6 +28,11 @@
 			<input type="submit"> <input type="Reset">
 		</form>
 	<hr> 
+	<hr>
+	<form action="trackProgress" type="get">
+		<input type="submit" value="Track Progress">
+	</form>
+	<hr>
 	<form action="index" method="get">
 		<input type="submit" value="Back to home">
 	</form>
