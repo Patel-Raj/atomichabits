@@ -7,6 +7,20 @@
 <title>Add Habit</title>
 </head>
 <body>
+	<h2>Existing Habits being tracked : </h2>
+	
+	<ul>
+		<li></li>
+		<li></li>
+	</ul>
+	
+	<hr>
+	<form action="addHabitService" method = "get">
+		 Habit Name : <input type="text" name="habit_name" placeholder="Enter Habit"><br><br>
+		 Start Date : <input type="date" name="habit_start_date" placeholder="Enter Date"><br><br>
+		<input type="submit"> <input type="Reset">
+	</form>
+	<hr> 
 	<form action="index" method="get">
 		<input type="submit" value="Back to home">
 	</form>
