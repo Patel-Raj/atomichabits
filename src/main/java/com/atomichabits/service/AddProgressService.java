@@ -20,8 +20,8 @@ public class AddProgressService {
 		for(String habitName : habits) {
 			int habitId = habitDao.getIdFromName(habitName);
 			habitRecord = new HabitRecord(habitRecordDao.getMaxId()+1, effective_date , habitId);
+			if(habitRecord != null)
+				habitRecordDao.insert(habitRecord);
 		}
-		if(habitRecord != null)
-			habitRecordDao.insert(habitRecord);
 	}
 }
